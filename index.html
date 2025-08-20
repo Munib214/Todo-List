@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body oncontextmenu="return false">
+  <header class="site-header">
+    <h1>Made By Munib Jahangir</h1>
+  </header>
+
+  <div class="container">
+    <h2> Todo List </h2>
+    <div class="input-area">
+      <input type="text" id="todo" placeholder="Enter a task...">
+      <button id="add-btn" onclick="addTodo()">Add</button>
+      <button id="update-btn" style="display:none;" onclick="updateTodo()">Update</button>
+    </div>
+    <ul id="todo-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
